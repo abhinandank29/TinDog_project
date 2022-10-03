@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat';
+
+}
+#title {
+    background-color: #9FC9F3;
+    color: #112B3C;
+}
+
+h1 {
+    font-family: 'Peralta', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container {
+    padding: 3% 15% 8%;
+}
+
+/* for nav bar */
+.navbar {
+    padding: 0 0 4rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #143F6B;
+}
+
+.nav-item {
+    padding: 0 17px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-family: 'Montserrat-light';
+    color: #525E75;
+}
+/* margin for download buttons */
+.downld-button {
+    margin: 3% 2% 3% 0;
+}
+.doggo-img {
+    width: 300px;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+
+@media (max-width: 990px){
+    #title{
+        text-align: center;
+    }
+    .doggo-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* for bottom section */
+
+#features {
+    padding: 7% 18%;
+    background-color: #fff;
+    /* font-size: 1.2rem; */
+    /* font-family: 'Montserrat-light'; */
+    position: relative;
+    z-index: 1;
+}
+
+.specs {
+    text-align: center;
+    padding: 5%;
+}
+h3 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+.sp-icons {
+    margin-bottom: 1rem;
+    color: #B7C4CF;
+
+}
+/* when we put the pointer over it ,then the color changes */
+.sp-icons:hover {
+    color: #9FC9F3;
+}
+
+#testimonials {
+    background-color: #97D2EC;
+    padding: 7% 16%;
+    text-align: center;
+    font-family: 'Alkalami', serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    /* padding-top: 5%; */
+    padding-bottom: 2.5%;
+    background-color: #DFF6FF;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 45px;
+}
+
+/* pricing */
+.plans{
+    font-family: 'Alkalami', serif;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+
+/* last part */
+
+#cta{
+    background-color: #9FC9F3;
+    padding: 5% 12%;
+    text-align: center;
+    color: #F8EDE3;
+}
+
+.clt-heading{
+    font-family: 'Peralta', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.social-ic{
+    margin: 20px 10px;
+}
+/* for footer */
+#footer {
+    text-align: center;
+    padding: 2.5% 15%;
+
+}
